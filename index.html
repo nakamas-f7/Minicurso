@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Da memoria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="Esquerda">
+                <img src="logo.jpg" alt="" id="Logo">
+            </div>
+            <div id="Direita">
+                <a href="">Eventos</a>
+                <a href="">Modos</a>
+                <a href="">Configurações</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="superior">
+            <div class="Foto F1" onclick="Embaralha(1)"></div>
+            <div class="Foto F3" onclick="Embaralha(3)"></div>
+            <div class="Foto F5" onclick="Embaralha(5)"></div>
+            <div class="Foto F7" onclick="Embaralha(7)"></div>
+        </div>
+        <div id="centro">
+            <div class="Foto F9" onclick="Embaralha(9)"></div>
+            <div class="Foto F11" onclick="Embaralha(11)"></div>
+            <div class="Foto F2" onclick="Embaralha(2)"></div>
+            <div class="Foto F6" onclick="Embaralha(6)"></div>
+        </div>
+        <div id="inferior">
+            <div class="Foto F10" onclick="Embaralha(10)"></div>
+            <div class="Foto F14" onclick="Embaralha(14)"></div>
+            <div class="Foto F18" onclick="Embaralha(18)"></div>
+            <div class="Foto F22" onclick="Embaralha(22)"></div>
+        </div>
+
+    </main>
+
+    <footer></footer>
+    <script src="Script.js"></script>
+</body>
+</html>

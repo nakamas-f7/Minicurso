@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 10vh;
+    width: 100vw;
+    background-color: #0E1126;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    height: 80vh;
+    width: 100vw;
+    background-color: #311559;
+}
+
+footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: #0E1126;
+}
+
+nav{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+#Esquerda, #Direita{
+    display: flex;
+    margin: 0 5%;
+    width: 50%;
+    height: 100%;
+}
+
+#Esquerda{
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+img{
+    height: 100%;
+}
+
+
+#Direita{
+    align-items: center;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+/* MAIN */
+
+#superior, #centro, #inferior{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    width: 60%;
+
+}
+
+.Foto{
+    margin: 0 1%;
+    height: 90%;
+    width: 25%;
+    background-image: url(imagens_do_jogo/principal.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.Foto:hover{
+    height: 100%;
+}
